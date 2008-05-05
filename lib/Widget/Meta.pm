@@ -1,9 +1,20 @@
 package Widget::Meta;
 
-# $Id: Meta.pm,v 1.5 2004/09/18 19:58:55 david Exp $
+# $Id: Meta.pm 3802 2008-05-05 19:18:15Z david $
 
 use strict;
-$Widget::Meta::VERSION = '0.03';
+$Widget::Meta::VERSION = '0.04';
+
+=begin comment
+
+Fake-out Module::Build. Delete if it ever changes to support =head1 headers
+other than all uppercase.
+
+=head1 NAME
+
+Widget::Meta - Metadata for user interface widgets
+
+=end comment
 
 =head1 Name
 
@@ -99,7 +110,7 @@ to be entered into a widge such as a text box. Must be an integer. Defaults to
 The number of rows to be used in a widget, such as a textarea widget. Must be
 an integer. Defaults to 0.
 
-=item rows
+=item cols
 
 The number of columns to be used in a widget, such as a textarea widget. Must
 be an integer. Defaults to 0.
@@ -326,18 +337,26 @@ __END__
 
 =head1 Bugs
 
-Report all bugs via the CPAN Request Tracker at
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Widget-Meta>.
+Please send bug reports to <bug-widget-meta@rt.cpan.org>.
 
 =head1 Author
+
+=begin comment
+
+Fake-out Module::Build. Delete if it ever changes to support =head1 headers
+other than all uppercase.
+
+=head1 AUTHOR
+
+=end comment
 
 David Wheeler <david@kineticode.com>
 
 =head1 Copyright and License
 
-Copyright (c) 2004 Kineticode, Inc. All Rights Reserved.
+Copyright (c) 2004-2008 David Wheeler. Some Rights Reserved.
 
-This module is free software; you can redistribute it and/or modify it under the
-same terms as Perl itself.
+This module is free software; you can redistribute it and/or modify it under
+the same terms asx Perl itself.
 
 =cut

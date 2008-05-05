@@ -1,4 +1,4 @@
-Widget/Meta version 0.03
+Widget/Meta version 0.04
 ========================
 
 This class specifies simple objects that describe UI widgets. The idea is to
@@ -32,7 +32,7 @@ This module requires no modules or libraries not already included with Perl.
 
 COPYRIGHT AND LICENCE
 
-Copyright (c) 2004 Kineticode, Inc. All Rights Reserved.
+Copyright (c) 2004-2008 David Wheeler. Some Rights Reserved.
 
-This module is free software; you can redistribute it and/or modify it under the
-same terms as Perl itself.
+This module is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.
