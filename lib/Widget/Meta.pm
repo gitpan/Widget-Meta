@@ -1,20 +1,7 @@
 package Widget::Meta;
 
-# $Id: Meta.pm 3802 2008-05-05 19:18:15Z david $
-
 use strict;
-$Widget::Meta::VERSION = '0.04';
-
-=begin comment
-
-Fake-out Module::Build. Delete if it ever changes to support =head1 headers
-other than all uppercase.
-
-=head1 NAME
-
-Widget::Meta - Metadata for user interface widgets
-
-=end comment
+$Widget::Meta::VERSION = '0.05';
 
 =head1 Name
 
@@ -335,26 +322,23 @@ __END__
  Total                         100.0  100.0  100.0  100.0  100.0  100.0  100.0
  ---------------------------- ------ ------ ------ ------ ------ ------ ------
 
-=head1 Bugs
+=head1 Support
 
-Please send bug reports to <bug-widget-meta@rt.cpan.org>.
+This module is stored in an open L<GitHub
+repository|http://github.com/theory/widget-meta/>. Feel free to fork and
+contribute!
+
+Please file bug reports via L<GitHub
+Issues|http://github.com/theory/widget-meta/issues/> or by sending mail to
+L<bug-Widget-Meta@rt.cpan.org|mailto:bug-Widget-Meta@rt.cpan.org>.
 
 =head1 Author
 
-=begin comment
-
-Fake-out Module::Build. Delete if it ever changes to support =head1 headers
-other than all uppercase.
-
-=head1 AUTHOR
-
-=end comment
-
-David Wheeler <david@kineticode.com>
+David E. Wheeler <david@justatheory.com>
 
 =head1 Copyright and License
 
-Copyright (c) 2004-2008 David Wheeler. Some Rights Reserved.
+Copyright (c) 2004-2011 David E. Wheeler. Some Rights Reserved.
 
 This module is free software; you can redistribute it and/or modify it under
 the same terms asx Perl itself.

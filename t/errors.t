@@ -1,6 +1,4 @@
-#!perl -w
-
-# $Id: errors.t 682 2004-09-28 05:59:10Z david $
+#!/usr/bin/perl -w
 
 use strict;
 use Test::More tests => 25;
